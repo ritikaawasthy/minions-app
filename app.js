@@ -4,7 +4,6 @@ console.log(txtArea)
 console.log(btnTranslate)
 
 btnTranslate.addEventListener("click",function clickEventHandler()
-{ console.log("Clicked!")
 { console.log("clicked!")
   console.log("input", txtArea.value)
 })
