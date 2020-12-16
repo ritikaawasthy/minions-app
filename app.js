@@ -1,9 +1,9 @@
 var btnTranslate= document.querySelector("#btn-translate")
 var txtArea= document.querySelector('#txt-area')
-console.log(txtArea)
-console.log(btnTranslate)
+var output= document.querySelector("#output")
+
 
 btnTranslate.addEventListener("click",function clickEventHandler()
-{ console.log("clicked!")
-  console.log("input", txtArea.value)
+{
+  output.innerText = "ajajasjsjajjsj" + txtArea.value;
 })

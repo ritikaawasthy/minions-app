@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+
+body {
+    font-family: 'Domine', serif;
+    background-image: url("images/minions3.jpg")
+}
+
+textarea{
+  width: 80%;
+  height:10vh ;
+  display: block;
+  margin:1rem ;
+  padding: 1rem;
+
+}
+
+#btn-translate{
+position: absolute;
+left: 25px;
+width: 80px;
+height: 20px;
+background-color: burlywood;
+
+}
+
+#output{
+border: 1px solid black;
+width: 80%;
+height:10vh ;
+display: block;
+margin-top: 3.5rem;
+margin-left: 1rem;
+padding: 1rem;
+background-color: white;
+
+}
